@@ -1,0 +1,47 @@
+
+p {
+    background-color: aqua;
+}
+
+a {
+    background-color: orange;
+}
+
+.box-model h3 {
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 5px dashed black;
+    border-top-color: red;
+    padding: 30px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
