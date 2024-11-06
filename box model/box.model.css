@@ -1,46 +1,96 @@
 
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* bloque y linea */
 p {
     background-color: aqua;
+    margin-bottom: 20px;
+    padding: 30px;
 }
 
-a {
+.resaltar {
+    background-color: greenyellow;
+}
+
+.linea {
+    display: block;
+}
+
+a.bloque {
+    display: inline-block;
+}
+
+.bloque {
     background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
-.box-model h3 {
+/* box model */
+.box-model {
+    text-align: left;
     width: 300px;
     height: 150px;
     background-color: aquamarine;
     border: 5px dashed black;
     border-top-color: red;
     padding: 30px 20px;
+    margin: 25px auto;
+    overflow: scroll;
 }
 
+article {
+    background-color: yellowgreen;
+    padding: 25px;
+    display: none;
+    /* visibility: hidden; */
+}
 
+header {
+    background-color: black;
+    padding: 30px;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0;
+    /* z-index: 999; */
+}
 
+header nav ul li {
+    display: inline;
+    margin: 0 12px;
+    color: white;
+}
 
+.p-absolute, .p-relative {
+    width: 200px;
+    height: 200px;
+}
 
+.p-absolute {
+    background-color: tomato;
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    z-index: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.p-relative {
+    background-color: greenyellow;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    z-index: 2;
+    opacity: 0.75;
+}
 
 
 
